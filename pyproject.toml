@@ -40,7 +40,6 @@ dev = [
 
     "ruff",
     "flake8",
-    "isort",
     "mypy",
 ]
 
