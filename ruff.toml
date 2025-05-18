@@ -8,9 +8,9 @@ lint.select = [
 
 [lint.per-file-ignores]
 "__init__.py" = [
-    # <module> imported but unused
-    "F401",
+    "F401",     # <module> imported but unused
 ]
+
 "tests/*" = [
     # Line too long
     "E501",
