@@ -10,3 +10,4 @@ skip_covered = False
 
 [html]
 directory = /tmp/htmlcov
+show_contexts = True
