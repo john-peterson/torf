@@ -457,9 +457,7 @@ class URL(str):
         return super().__new__(cls, str(s).replace(' ', '+'))
 
     def __init__(self, url):
-        if not is_url(url):
-            raise error.URLError(url)
-        else:
+        if is_url(url):
             self._parsed = urllib.parse.urlparse(url)
 
     @property
